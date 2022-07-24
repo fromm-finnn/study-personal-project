@@ -1,0 +1,141 @@
+@font-face {
+  font-family: 'Eulyoo1945-SemiBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/Eulyoo1945-SemiBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/Eulyoo1945-SemiBold.woff');
+
+* {
+  font-family: 'Eulyoo1945-SemiBold';
+  font-style: italic;
+}
+
+body{
+  margin: 0;
+  background-color: #362D2E;
+  width: 100%;
+  height: 700px;
+}
+
+.step1{
+  position: relative;
+  top : 500px;
+  left : 300px;
+  border : 1px solid white;
+  border-right: none;
+  border-bottom: none;
+  margin: 0px;
+  height: 200px;
+  width : 300px;
+  text-align: center;
+  color: white;
+}
+
+.step1_contents{
+  position: relative;
+  bottom: 80px;
+}
+
+.step1_contents:hover{
+  color:#6CA1BF;
+}
+
+.running {
+  position: relative;
+  right: 300px;
+  top: 25px;
+  color: white;
+}
+
+.step2{
+  border : 1px solid white;
+  border-right: none;
+  border-bottom: none;
+  position: relative;
+  left: 600px;
+  top: 98px;
+  margin: 0px;
+  height: 200px;
+  width : 300px;
+  text-align: center;
+  color: white;
+}
+
+.step2_contents{
+  position: relative;
+  bottom: 40px;
+}
+
+.step2_contents:hover{
+  color:#507EBC;
+}
+
+.step3{
+  border : 1px solid white;
+  border-bottom: none;
+  border-right: none;
+  position: relative;
+  left: 900px;
+  bottom: 303px;
+  margin: 0;
+  height: 200px;
+  width : 400px;
+  text-align: center;
+  color: white;
+}
+
+.step3_contents{
+  position: relative;
+  bottom: 60px;
+}
+
+.step3_contents:hover{
+  color:#507EBC;
+}
+
+.goal {    
+  text-align: center;
+  position: relative;
+  bottom: 137px;
+  left: 290px;
+  width: 200px;
+  color: white;
+  font-size: 13px;
+}
+
+
+a:link{
+  color : white;
+  text-decoration-line: none;
+}
+
+a:visited{
+  color : white;
+  text-decoration-line: none;
+}
+
+a:hover{
+  color: gold;
+}
+
+.wall {
+  border-right : 1px solid white;
+  position: relative;
+  left: 1299px;
+  bottom: 503px;
+  width: 1px;
+  height: 600px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 7px;
+  background-color: white;
+  color : #362D2E;
+  font-size: 10px;;
+  text-align: center;
+}

@@ -1,0 +1,108 @@
+@font-face {
+  font-family: 'Eulyoo1945-SemiBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/Eulyoo1945-SemiBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/Eulyoo1945-SemiBold.woff');
+
+* {
+  font-family: 'Eulyoo1945-SemiBold';
+  font-style: italic;
+}
+
+body {
+  margin: 0;                      /*하단에 footer 꽉차게 하기 위해*/
+  background-color: #362D2E;  
+}
+
+
+.float_wrap{
+  overflow: hidden;
+}
+
+.main_box {
+  float: left;
+  margin: 200px auto;
+  margin-left: 400px;
+  width: 300px;
+  height: 400px;
+  text-align: center;
+  overflow : hidden;
+}
+
+.contact {
+  color : white;
+  font-size: 10px;
+  font-style: italic;
+  line-height: 5px;
+}
+
+.name {
+  font-size: 12px;
+}
+
+.image {
+  filter: grayscale(100%);
+  width : 250px;
+  height : 250px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.image:hover {
+  filter: grayscale(0%);
+} 
+
+.contents_box {
+  float: right;
+  width: 100px;
+  overflow: hidden;
+  margin: 210px;
+  margin-right: 500px;
+  color: white;
+  font-size: 20px;
+  font-style: italic;
+  line-height: 50px;
+}
+
+a:link{
+  color : white;
+  text-decoration-line: none;
+}
+
+a:visited{
+  color : white;
+  text-decoration-line: none;
+}
+
+.profile:hover {
+  color : #6CA1BF;
+}
+
+.career:hover {
+  color : #507EBC;
+}
+
+.goal:hover {
+  color : #C7C8C2;
+}
+
+i {
+  color:gold;
+  position: relative;
+  bottom: 600px;
+  left: 460px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 7px;
+  background-color: white;
+  color : #362D2E;
+  font-size: 10px;;
+  text-align: center;
+}
